@@ -3,12 +3,11 @@ body {
     background-image: url('/images/surfboards.png');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .container {
-    width: 60%;
-    /* height: auto; */
-    text-align: center;
+    width: 80%;
     background-color: lightblue;
 }
 
@@ -28,8 +27,7 @@ h1 {
 }
 
 #answer-options {
-    width: 70%;
-    text-align: center;
+    width: 90%;
     display: inline-block;
     padding: 10px 0;
 }
@@ -46,20 +44,16 @@ button {
 }
 
 .results {
-    text-align: center;
     width: 50%;
     color:  #00008b;
     font-weight: bold;
 }
 
 .answerImage {
-    height: 250px;
-    width: 400px;
+    height: auto;
+    max-height: 300px;
+    width: 100%;
     border: 2px solid #00008b;
-}
-
-#startMe {
-    text-align: center;
 }
 
 .timer {
