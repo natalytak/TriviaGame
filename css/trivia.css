@@ -1,0 +1,75 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-image: url('/images/surfboards.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 60%;
+    /* height: auto; */
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Coiny', cursive;
+    padding: 30px;
+    color: #00008b;
+}
+
+#correct {
+    color: #b5458e;
+    
+}
+#question {
+    padding: 20px 0;
+    background-color: #e4ffca;
+}
+
+#answer-options {
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #ffd265;
+    border: 2px solid #00008b;
+    border-radius: 45%;
+}
+
+.results {
+    text-align: center;
+    width: 50%;
+    color:  #00008b;
+    font-weight: bold;
+}
+
+.answerImage {
+    height: 250px;
+    width: 400px;
+    border: 2px solid #00008b;
+}
+
+#startMe {
+    text-align: center;
+}
+
+.timer {
+    background-color:#00008b;
+    color: #d9d9ff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 3px ridge #d9d9ff;
+}
+
+#time {
+    margin: 30px;
+}
