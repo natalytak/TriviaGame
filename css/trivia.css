@@ -1,6 +1,7 @@
+
 body {
     font-family: 'Maven Pro', sans-serif;
-    background-image: url('/images/surfboards.jpeg');
+    background-image: url("../images/manySurfboards.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
